@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_result"
+        style="@style/TextStyle"/>
+
+    <Button
+        android:id="@+id/btn_main_to_self"
+        style="@style/TextStyle"
+        android:text="主线程给自己发送Message"/>
+
+    <Button
+        android:id="@+id/btn_other_to_main"
+        style="@style/TextStyle"
+        android:text="其他线程给主线程发送Message"/>
+
+    <Button
+        android:id="@+id/btn_main_to_other"
+        style="@style/TextStyle"
+        android:text="主线程给其他线程发送Message"/>
+
+    <Button
+        android:id="@+id/btn_other_to_self"
+        style="@style/TextStyle"
+        android:text="其它线程给自己发送Message"/>
+
+</LinearLayout>
